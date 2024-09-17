@@ -1,4 +1,4 @@
-import { ContactsOutlined, HomeOutlined, MoonOutlined, SunOutlined } from '@ant-design/icons';
+import { ContactsOutlined, ContainerOutlined, CustomerServiceOutlined, HomeOutlined, MoonOutlined, SunOutlined } from '@ant-design/icons';
 import React, { useContext } from 'react';
 import { ThemeContext } from '../ThemeContext';
 
@@ -15,9 +15,9 @@ const Header = () => {
 
                 <nav className="md:flex space-x-8">
                     <a href="#home" className="">Home <HomeOutlined /></a>
-                    <a href="#about" className="">About</a>
-                    <a href="#services" className=" ">Services</a>
-                    <a href="#contact" className="">Contact <ContactsOutlined/></a>
+                    <a href="#about" className="">About <ContainerOutlined /></a>
+                    <a href="#services" className=" ">Services <CustomerServiceOutlined /></a>
+                    <a href="#contact" className="">Contact <ContactsOutlined /></a>
                 </nav>
 
                 <div>
